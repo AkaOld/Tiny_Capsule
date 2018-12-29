@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/text_invitationitem_accept"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/shape_textview_3color3"
+        android:padding="10dp"
+        android:text="接受"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size" />
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_capsuleinvitationitem"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shape_u_and_l_border1">
+
+        <TextView
+            android:id="@+id/text_invitationitem_cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/shape_textview_3color2"
+            android:padding="10dp"
+            android:text="关爱另一个他"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/text_invitationitem_fname"
+            android:layout_width="169dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="113dp"
+            android:layout_marginLeft="113dp"
+            android:layout_marginTop="60dp"
+            android:text="邀请人姓名" />
+
+        <TextView
+            android:id="@+id/text_invitationitem_fname2"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="60dp"
+            android:text="邀请人：" />
+
+        <TextView
+            android:id="@+id/text_invitationitem_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="147dp"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="23dp"
+            android:text="2018-12-25" />
+    </RelativeLayout>
+
+</RelativeLayout>

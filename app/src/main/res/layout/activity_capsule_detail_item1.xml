@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="25dp">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintlayout_msg1"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_friend4"
+            android:layout_marginStart="-5dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/image_friend4"
+            android:layout_toRightOf="@+id/image_friend4"
+            android:background="@drawable/shape_massage_item_5"
+            android:paddingBottom="25dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="48dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_detailitem_head1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/head_image1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_detailitem_mname1"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginLeft="72dp"
+                android:layout_marginTop="20dp"
+                android:text="关爱另一个他"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_detailitem_msg1"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/shape_textview_4"
+                android:paddingStart="15dip"
+                android:paddingLeft="15dip"
+                android:paddingBottom="15dp"
+                android:text="神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容神秘内容"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_share1"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/share"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_msg_1"
+                android:layout_width="86dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="64dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/head_image3" />
+
+            <ImageView
+                android:id="@+id/image_msg_2"
+                android:layout_width="86dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="112dp"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="64dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/head_image2" />
+
+            <ImageView
+                android:id="@+id/image_msg_3"
+                android:layout_width="86dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="198dp"
+                android:layout_marginLeft="198dp"
+                android:layout_marginTop="64dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/head_image5" />
+
+            <TextView
+                android:id="@+id/text_map1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="8dp"
+                android:text="TextView"
+                android:textColor="@color/color2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_detailitem_msg1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/text_detailitem_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="5dp"
+            android:text="2018-11-25" />
+
+        <ImageView
+            android:id="@+id/image_detailitem_timeaxis1"
+            android:layout_width="5dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/color3" />
+
+        <ImageView
+            android:id="@+id/image_friend4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/label" />
+    </RelativeLayout>
+
+</RelativeLayout>

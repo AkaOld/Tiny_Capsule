@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+
+            <TextView
+                android:id="@+id/toolbar1_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="我"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp" />
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="79dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="26dp"
+                android:src="@drawable/head_image1" />
+
+            <TextView
+                android:id="@+id/nameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="147dp"
+                android:layout_marginLeft="147dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shape_textview_3color3"
+                android:padding="10dp"
+                android:text="关爱另一个他"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/text_homeitem_number"
+                android:layout_width="136dp"
+                android:layout_height="33dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="153dp"
+                android:layout_marginLeft="153dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="84dp"
+                android:text="个性签名" />
+
+            <ImageView
+                android:id="@+id/image_friendapply"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginBottom="28dp"
+                android:src="@drawable/invitation_f" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_friendapply"
+                android:layout_alignEnd="@+id/image_friendapply"
+                android:layout_alignRight="@+id/image_friendapply"
+                android:layout_marginTop="-29dp"
+                android:text="好友申请" />
+
+            <ImageView
+                android:id="@+id/image_capsuleinvitation"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="115dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="28dp"
+                android:src="@drawable/invitation_c" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_capsuleinvitation"
+                android:layout_alignEnd="@+id/image_capsuleinvitation"
+                android:layout_alignRight="@+id/image_capsuleinvitation"
+                android:layout_marginTop="-29dp"
+                android:text="胶囊邀请" />
+
+            <ImageView
+                android:id="@+id/image_sysnotification"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="190dp"
+                android:layout_marginLeft="212dp"
+                android:layout_marginBottom="28dp"
+                android:src="@drawable/sys_notice" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_sysnotification"
+                android:layout_alignEnd="@+id/image_sysnotification"
+                android:layout_alignRight="@+id/image_sysnotification"
+                android:layout_marginTop="-29dp"
+                android:text="系统通知" />
+
+            <ImageView
+                android:id="@+id/image_mypage"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="270dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginBottom="28dp"
+                android:src="@drawable/return_me" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_mypage"
+                android:layout_alignEnd="@+id/image_mypage"
+                android:layout_alignRight="@+id/image_mypage"
+                android:layout_marginTop="-29dp"
+                android:text="我的页面" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="48dp"
+                android:layout_height="49dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/windmill" />
+
+            <ImageView
+                android:id="@+id/image_myscan"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="48dp"
+                android:layout_marginTop="57dp"
+                android:background="@drawable/qrcode" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="49dp">
+
+            <LinearLayout
+                android:id="@+id/linearlayout_mypage"
+                android:layout_width="match_parent"
+                android:layout_height="331dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="290dp"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/shape_u_and_l_border2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="9dp"
+                            android:text="我的二维码"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </android.support.constraint.ConstraintLayout>
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="290dp"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/shape_u_and_l_border2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="9dp"
+                            android:text="扫一扫"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </android.support.constraint.ConstraintLayout>
+                </android.support.constraint.ConstraintLayout>
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@drawable/shape_massage_item_5" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="290dp"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/shape_u_and_l_border2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="9dp"
+                            android:text="修改个人信息"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </android.support.constraint.ConstraintLayout>
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="290dp"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/shape_u_and_l_border2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="9dp"
+                            android:text="设置"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </android.support.constraint.ConstraintLayout>
+                </android.support.constraint.ConstraintLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_friendapply"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#ffff0000"
+                android:dividerHeight="10dp"
+                android:gravity="center_horizontal"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_capsuleinvitation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#ffff0000"
+                android:dividerHeight="10dp"
+                android:gravity="center_horizontal"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_sysnotification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#ffff0000"
+                android:dividerHeight="10dp"
+                android:gravity="center_horizontal"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</FrameLayout>
